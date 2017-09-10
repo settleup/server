@@ -1,0 +1,16 @@
+[
+  {
+    "datetime": 1505081058578,
+    "title": "Ice cream",
+    "total": 25,
+    "owner": "Jon",
+    "participants": ["Jon", "Kelly", "Tom"]
+  },
+  {
+    "datetime": 1505081058578,
+    "title": "Pizza",
+    "total": 30,
+    "owner": "Kelly",
+    "participants": ["Jon", "Kelly"]
+  }
+]

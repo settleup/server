@@ -1,9 +1,16 @@
-const Koa = require('koa');
-const app = new Koa();
+const express = require('express');
+const app = express();
 
-// response
-app.use(ctx => {
-  ctx.body = { foo: 'bar' };
+const transactions = require('../mock/transactions.json');
+
+app.get('/', (req, res) => {
+  res.json({ foo: 'bar' });
 });
 
-app.listen(3000);
+app.get('/transactions', (req, res) => {
+  res.json(transactions);
+});
+
+app.listen(3000, function() {
+  console.log('Example app listening on port 3000!');
+});
