@@ -5,18 +5,15 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format":
+      "prettier --single-quote --trailing-comma es5 --write '{src,test}/**/*.js'",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/settleup/server.git"
   },
-  "keywords": [
-    "Node",
-    "api",
-    "server",
-    "settleup"
-  ],
+  "keywords": ["Node", "api", "server", "settleup"],
   "author": "Jon Kuperman",
   "license": "MIT",
   "bugs": {
@@ -27,6 +24,7 @@
     "koa": "^2.3.0"
   },
   "devDependencies": {
-    "jest": "^21.0.2"
+    "jest": "^21.0.2",
+    "prettier": "^1.6.1"
   }
 }
