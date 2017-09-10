@@ -5,15 +5,19 @@
   "main": "src/index.js",
   "scripts": {
     "start": "nodemon src/index.js",
-    "format":
-      "prettier --single-quote --trailing-comma es5 --write '{src,test}/**/*.js'",
+    "format": "prettier --single-quote --trailing-comma es5 --write '{src,test}/**/*.js'",
     "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/settleup/server.git"
   },
-  "keywords": ["Node", "api", "server", "settleup"],
+  "keywords": [
+    "Node",
+    "api",
+    "server",
+    "settleup"
+  ],
   "author": "Jon Kuperman",
   "license": "MIT",
   "bugs": {
@@ -26,6 +30,7 @@
   "devDependencies": {
     "jest": "^21.0.2",
     "nodemon": "^1.12.0",
-    "prettier": "^1.6.1"
+    "prettier": "^1.6.1",
+    "supertest": "^3.0.0"
   }
 }
