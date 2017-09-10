@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/settleup/server/issues"
   },
-  "homepage": "https://github.com/settleup/server#readme"
+  "homepage": "https://github.com/settleup/server#readme",
+  "dependencies": {
+    "koa": "^2.3.0"
+  }
 }
