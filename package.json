@@ -5,15 +5,19 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "format":
-      "prettier --single-quote --trailing-comma es5 --write '{src,test}/**/*.js'",
+    "format": "prettier --single-quote --trailing-comma es5 --write '{src,test}/**/*.js'",
     "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/settleup/server.git"
   },
-  "keywords": ["Node", "api", "server", "settleup"],
+  "keywords": [
+    "Node",
+    "api",
+    "server",
+    "settleup"
+  ],
   "author": "Jon Kuperman",
   "license": "MIT",
   "bugs": {
@@ -21,7 +25,7 @@
   },
   "homepage": "https://github.com/settleup/server#readme",
   "dependencies": {
-    "koa": "^2.3.0"
+    "express": "^4.15.4"
   },
   "devDependencies": {
     "jest": "^21.0.2",

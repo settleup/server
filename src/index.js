@@ -3,7 +3,7 @@ const app = new Koa();
 
 // response
 app.use(ctx => {
-  ctx.body = 'Hello Koa';
+  ctx.body = { foo: 'bar' };
 });
 
 app.listen(3000);
